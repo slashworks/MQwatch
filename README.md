@@ -5,7 +5,7 @@ Little Javascript observer for mediaquery event handling.
 
 ## Quick start
 
-MQwatch looks up the computedStyle of the body element and scann for body:after { contant: "myDefinition" }. This keys are the identifyers to trigger events.
+MQwatch looks up the computedStyle of the body element and scan for body:after { contant: "myDefinition" }. This keys are the identifyers to trigger events.
 
 So first we have to define the body:after elements to each media query we like to trigger.
 
