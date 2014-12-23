@@ -22,7 +22,7 @@
 
     function getMQname() {
 
-        return win.getComputedStyle(document.body,':after').getPropertyValue('content');
+        return win.getComputedStyle(document.body,':after').getPropertyValue('content').replace(/"/g, '');
 
     }
 
