@@ -22,7 +22,7 @@
 
     function getMQname() {
 
-        return win.getComputedStyle(document.body,':after').getPropertyValue('content').replace(/"/g, '');
+        return win.getComputedStyle(document.body,':after').getPropertyValue('content').replace(/([^a-zA-Z\-\_])+/gi, "");
 
     }
 
@@ -79,7 +79,6 @@
                         f(type);
 
                     });
-
 
             }
 
